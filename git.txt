@@ -1,0 +1,77 @@
+
+cmd git版本号：git --version
+
+git的基础命令操作
+    1. git init         初始化本地git仓库
+
+    2. git add<file>    添加文件
+
+    3. git status       查看状态
+
+    4. git commit       提交
+
+    5. git push         推送到仓库
+
+    6. git pull         从远程仓库拉取数据
+
+    7. git clone        从远程仓库拷贝数据
+
+
+    git config --global user.email  配置用户邮件
+
+
+rd <file>             删除文件
+ 
+echo ><file>          新增文件
+
+git add *.<file>      上传某一类文件
+
+git add .             上传所有文件
+
+git commit -m“备注” 填写备注信息
+
+按下Esc 输入 :wq      退出
+
+echo >.gitignore      忽略文件(在gitignore文件中写入需要忽略的文件，例如：log.text)
+
+echo >.gitignore      忽略文件夹(.....，例如：/file_1)
+
+git branch <file>     创建分支
+
+git checkout <file>   切换到分支
+
+git checkout master   切换到主线
+
+git merge <file>      分支合并 
+
+git remote            查找
+
+git clone +url        克隆代码至本地
+
+git147369
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
