@@ -1,0 +1,11 @@
+http://idea.imsxm.com
+
+http://idea.wrbugtest.tk/
+
+
+"colors": {
+		"editor.background":"#C7EDCC"
+	},
+
+
+resources\app\extensions\theme-defaults\themes\light_vs.json

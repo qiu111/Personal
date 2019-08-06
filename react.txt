@@ -1,0 +1,12 @@
+安装react:
+ cnpm install -g create-react-app
+ create-react-app my-app
+ cd my-app/
+ npm start
+
+创建文件夹：mkdir 文件名
+
+npm i redux react-redux redux-thunk
+
+
+redux：状态组件管理

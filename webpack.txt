@@ -1,0 +1,75 @@
+安装webpack：npm install webpack webpack-cli webpack-dev-server -g
+
+创建文件夹：mkdir webpack-course
+
+创建三个文件夹：mkdir src dist config
+
+创建Git 方便后期初始化本地仓库：git init .
+
+创建package.json文件：npm init -y
+
+开发环境：webpack --mode=development
+
+生产环境：webpack --mode=production
+
+打包：webpack --config=config/webpack.dev.js
+
+安装本地webpack：webpack：npm install webpack webpack-cli webpack-dev-server
+
+安装完启动：webpack-dev-server --config=config/webpack.dev.js
+
+安装2个加载器（帮助渲染css和css可以写入webpack）：npm install style-loader css-loader
+
+配置package.json:"start":"webpack-dev-server --config=config/webpack.dev.js",
+                 "build":"webpack-dev-server --config=config/webpack.dev.js"
+  
+启动：npm start
+
+安装3个加载器（帮助html可以写入webpack）npm install html-loader extract-loader file-loader
+
+
+babel作用：把最新的es语法转化成浏览器可以识别的es5
+{
+	npm uninstall babel
+	npm install --save-dev babel-cli
+}
+
+安装：npm install babel-core
+
+安装：npm install babel-plugin-transform-es2015-arrow-functions
+
+全局安装babel：npm install -g babel-cli
+
+安装babel-loader：npm install babel-loader
+
+安装async-to-promises：npm install babel-plugin-async-to-promises
+
+安装babel-polyfill：npm install babel-polyfill
+
+安装babel-preset：npm install babel-preset-env
+
+安装babel-plugin-transform-runtime：npm install babel-plugin-transform-runtime
+
+安装webpack-dev-middleware：npm install webpack-dev-middleware
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
