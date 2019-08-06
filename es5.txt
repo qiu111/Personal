@@ -1,0 +1,36 @@
+var user = window.localStorage.getItem("userid");
+    if(user != 'null' && user != undefined && user !=''){
+        userid = JSON.parse(user).id;
+        var code = JSON.parse(user).code;
+
+    }
+
+trim(str)：去掉字符序列左边和右边的空格
+
+JavaScript获取属性值：var push_type = e.currentTarget.getAttribute('pid');
+
+js中字符串转数字（整形）的方法：
+     例如： var s = '234string';
+
+　　　      parseInt(s);　//234
+
+　　　      parseFloat(s);  //234.0
+
+
+类型转换
+通过“+”或toString()方法将数值转换成字符串
+通过parseInt()将字符串转换成整形
+通过parseFloat()将字符串转换成浮点型
+
+正则表达式
+exec()从字符串查找符合规则的字符串,返回字符串
+test()从字符串查找符合规则的字符串，返回布尔值
+
+eg:  var str="Chenhao-love-football"
+     var reg=/Chenhao/
+     alert(reg.exec(str))  //Chenhao
+     alert(reg.test(str))  //true
+
+
+
+
