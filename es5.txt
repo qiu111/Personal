@@ -1,3 +1,6 @@
+
+
+
 var user = window.localStorage.getItem("userid");
     if(user != 'null' && user != undefined && user !=''){
         userid = JSON.parse(user).id;
@@ -5,26 +8,26 @@ var user = window.localStorage.getItem("userid");
 
     }
 
-trim(str)ï¼šå»æ‰å­—ç¬¦åºåˆ—å·¦è¾¹å’Œå³è¾¹çš„ç©ºæ ¼
+trim(str)£ºÈ¥µô×Ö·ûĞòÁĞ×ó±ßºÍÓÒ±ßµÄ¿Õ¸ñ
 
-JavaScriptè·å–å±æ€§å€¼ï¼švar push_type = e.currentTarget.getAttribute('pid');
+JavaScript»ñÈ¡ÊôĞÔÖµ£ºvar push_type = e.currentTarget.getAttribute('pid');
 
-jsä¸­å­—ç¬¦ä¸²è½¬æ•°å­—ï¼ˆæ•´å½¢ï¼‰çš„æ–¹æ³•ï¼š
-     ä¾‹å¦‚ï¼š var s = '234string';
+jsÖĞ×Ö·û´®×ªÊı×Ö£¨ÕûĞÎ£©µÄ·½·¨£º
+     ÀıÈç£º var s = '234string';
 
-ã€€ã€€ã€€      parseInt(s);ã€€//234
+¡¡¡¡¡¡      parseInt(s);¡¡//234
 
-ã€€ã€€ã€€      parseFloat(s);  //234.0
+¡¡¡¡¡¡      parseFloat(s);  //234.0
 
 
-ç±»å‹è½¬æ¢
-é€šè¿‡â€œ+â€æˆ–toString()æ–¹æ³•å°†æ•°å€¼è½¬æ¢æˆå­—ç¬¦ä¸²
-é€šè¿‡parseInt()å°†å­—ç¬¦ä¸²è½¬æ¢æˆæ•´å½¢
-é€šè¿‡parseFloat()å°†å­—ç¬¦ä¸²è½¬æ¢æˆæµ®ç‚¹å‹
+ÀàĞÍ×ª»»
+Í¨¹ı¡°+¡±»òtoString()·½·¨½«ÊıÖµ×ª»»³É×Ö·û´®
+Í¨¹ıparseInt()½«×Ö·û´®×ª»»³ÉÕûĞÎ
+Í¨¹ıparseFloat()½«×Ö·û´®×ª»»³É¸¡µãĞÍ
 
-æ­£åˆ™è¡¨è¾¾å¼
-exec()ä»å­—ç¬¦ä¸²æŸ¥æ‰¾ç¬¦åˆè§„åˆ™çš„å­—ç¬¦ä¸²,è¿”å›å­—ç¬¦ä¸²
-test()ä»å­—ç¬¦ä¸²æŸ¥æ‰¾ç¬¦åˆè§„åˆ™çš„å­—ç¬¦ä¸²ï¼Œè¿”å›å¸ƒå°”å€¼
+ÕıÔò±í´ïÊ½
+exec()´Ó×Ö·û´®²éÕÒ·ûºÏ¹æÔòµÄ×Ö·û´®,·µ»Ø×Ö·û´®
+test()´Ó×Ö·û´®²éÕÒ·ûºÏ¹æÔòµÄ×Ö·û´®£¬·µ»Ø²¼¶ûÖµ
 
 eg:  var str="Chenhao-love-football"
      var reg=/Chenhao/

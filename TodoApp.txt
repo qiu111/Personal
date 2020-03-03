@@ -1,0 +1,9 @@
+第一：package 初始化：npm init 
+
+第二：安装express  npm install express --save
+
+第三：安装模板引擎 npm install ejs --save      npm install body-parser --save
+
+第四：创建主文件入口：app.js
+
+第五：（结构样式逻辑分离）控制器

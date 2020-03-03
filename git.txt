@@ -1,67 +1,77 @@
-cmd gitç‰ˆæœ¬å·ï¼šgit --version
 
-gitçš„åŸºç¡€å‘½ä»¤æ“ä½œ
-    1. git init         åˆå§‹åŒ–æœ¬åœ°gitä»“åº“
+cmd git°æ±¾ºÅ£ºgit --version
 
-    2. git add<file>    æ·»åŠ æ–‡ä»¶
+gitµÄ»ù´¡ÃüÁî²Ù×÷
+    1. git init         ³õÊ¼»¯±¾µØgit²Ö¿â
 
-    3. git status       æŸ¥çœ‹çŠ¶æ€
+    2. git add<file>    Ìí¼ÓÎÄ¼ş
 
-    4. git commit       æäº¤
+    3. git status       ²é¿´×´Ì¬
 
-    5. git push         æ¨é€åˆ°ä»“åº“
+    4. git commit       Ìá½»
 
-    6. git pull         ä»è¿œç¨‹ä»“åº“æ‹‰å–æ•°æ®
+    5. git push         ÍÆËÍµ½²Ö¿â
 
-    7. git clone        ä»è¿œç¨‹ä»“åº“æ‹·è´æ•°æ®
+    6. git pull         ´ÓÔ¶³Ì²Ö¿âÀ­È¡Êı¾İ
 
-git config --global user.email  é…ç½®ç”¨æˆ·é‚®ä»¶
+    7. git clone        ´ÓÔ¶³Ì²Ö¿â¿½±´Êı¾İ
 
-cmd gitç‰ˆæœ¬å·ï¼šgit --version
 
-gitçš„åŸºç¡€å‘½ä»¤æ“ä½œ
-    1. git init         åˆå§‹åŒ–æœ¬åœ°gitä»“åº“
+    git config --global user.email  ÅäÖÃÓÃ»§ÓÊ¼ş
 
-    2. git add<file>    æ·»åŠ æ–‡ä»¶
 
-    3. git status       æŸ¥çœ‹çŠ¶æ€
-
-    4. git commit       æäº¤
-
-    5. git push         æ¨é€åˆ°ä»“åº“
-
-    6. git pull         ä»è¿œç¨‹ä»“åº“æ‹‰å–æ•°æ®
-
-    7. git clone        ä»è¿œç¨‹ä»“åº“æ‹·è´æ•°æ®
-
-    git config --global user.email  é…ç½®ç”¨æˆ·é‚®ä»¶
-
-rd <file>             åˆ é™¤æ–‡ä»¶
+rd <file>             É¾³ıÎÄ¼ş
  
-echo ><file>          æ–°å¢æ–‡ä»¶
+echo ><file>          ĞÂÔöÎÄ¼ş
 
-git add *.<file>      ä¸Šä¼ æŸä¸€ç±»æ–‡ä»¶
+git add *.<file>      ÉÏ´«Ä³Ò»ÀàÎÄ¼ş
 
-git add .             ä¸Šä¼ æ‰€æœ‰æ–‡ä»¶
+git add .             ÉÏ´«ËùÓĞÎÄ¼ş
 
-git commit -mâ€œå¤‡æ³¨â€ å¡«å†™å¤‡æ³¨ä¿¡æ¯
+git commit -m¡°±¸×¢¡± ÌîĞ´±¸×¢ĞÅÏ¢
 
-æŒ‰ä¸‹Esc è¾“å…¥ :wq      é€€å‡º
+°´ÏÂEsc ÊäÈë :wq      ÍË³ö
 
-echo >.gitignore      å¿½ç•¥æ–‡ä»¶(åœ¨gitignoreæ–‡ä»¶ä¸­å†™å…¥éœ€è¦å¿½ç•¥çš„æ–‡ä»¶ï¼Œä¾‹å¦‚ï¼šlog.text)
+echo >.gitignore      ºöÂÔÎÄ¼ş(ÔÚgitignoreÎÄ¼şÖĞĞ´ÈëĞèÒªºöÂÔµÄÎÄ¼ş£¬ÀıÈç£ºlog.text)
 
-echo >.gitignore      å¿½ç•¥æ–‡ä»¶å¤¹(.....ï¼Œä¾‹å¦‚ï¼š/file_1)
+echo >.gitignore      ºöÂÔÎÄ¼ş¼Ğ(.....£¬ÀıÈç£º/file_1)
 
-git branch <file>     åˆ›å»ºåˆ†æ”¯
+git branch <file>     ´´½¨·ÖÖ§
 
-git checkout <file>   åˆ‡æ¢åˆ°åˆ†æ”¯
+git checkout <file>   ÇĞ»»µ½·ÖÖ§
 
-git checkout master   åˆ‡æ¢åˆ°ä¸»çº¿
+git checkout master   ÇĞ»»µ½Ö÷Ïß
 
-git merge <file>      åˆ†æ”¯åˆå¹¶ 
+git merge <file>      ·ÖÖ§ºÏ²¢ 
 
-git remote            æŸ¥æ‰¾
+git remote            ²éÕÒ
 
-git clone +url        å…‹éš†ä»£ç è‡³æœ¬åœ°
+git clone +url        ¿ËÂ¡´úÂëÖÁ±¾µØ
 
 git147369
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

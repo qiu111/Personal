@@ -1,0 +1,68 @@
+用户：root
+密码：Dcyt!@118118
+
+107密码：Dcyt118118
+
+1.6密码：Dcyt!!*!!*118118
+
+重启chart：
+查找目录：cd /home/dcyt/yt/nodes/chart
+杀掉进程：ps -ef|grep serve |grep vue |awk '{print $2}'|xargs kill -9
+重启：npm run serve &
+
+nohup npm run serve &
+
+
+/usr/local/nginx/conf
+
+
+Nginx
+whereis nginx     查看安装位置
+
+ps -ef|grep nginx  检查进程
+
+nginx -c /usr/local/nginx/conf/nginx.conf  启动Nginx
+
+nginx -s stop  停止Nginx
+
+nginx -s reopen  :重启
+
+telnet localhost 80  ：检查端口是否启动，
+
+
+rz ...     打包压缩zip
+
+unzip xxxx     解压
+
+
+
+
+启动Nginx先切入到sbin目录：cd /usr/local/nginx/sbin
+命令：./nginx
+
+上传打包文件首先也切到根目录：cd ~    cd ..
+pwd 显示路径
+
+unzip dist.zip   解压
+ls /dist  查找文件夹里的文件
+mv /dist /web-vue   移动dist文件夹到web-vue里
+
+
+让vue项目能看到：
+     简单配置Nginx.conf
+     切换：/usr/local/nginx/conf
+     用vim进行编辑：vim nginx.conf
+
+
+scp -r /web-vue/vue-mo 106.14.44.107:/home/dcyt/yt
+
+
+172.16.1.5对应外网180.167.137.102
+
+
+
+
+
+
+
+
